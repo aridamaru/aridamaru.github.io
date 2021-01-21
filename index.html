@@ -3,8 +3,8 @@
 <script>
   var fixdigital_params = {
   defaultphone:'', 
-  phoneSelector:'.fix_smartphone1 , .fix_smartphone2', 
-  phoneSelectorHref:'.fix_smartphone_href1 , .fix_smartphone_href2',
+  phoneSelector:'.fix_smartphone , .fix_smartphone1, .fix_smartphone2', 
+  phoneSelectorHref:'.fix_smartphone_href , .fix_smartphone_href1, .fix_smartphone_href2',
   api_type: 4, 
   api_clientkey: '1911', 
   api_tenantkey:'1', 
@@ -22,8 +22,34 @@
   
 </head>
 <body>
+  <span class="fix_smartphone">077-7777777</span><br>
   <span class="fix_smartphone1">077-7777777</span><br>
-  <a href="tel:077-7777777" class="fix_smartphone1 fix_smartphone_href1">077-7777777</a><br>
-  <a href="tel:077-7777777" class="fix_smartphone_href2"> Call us:
-  <strong class="fix_smartphone2">077-7777777</strong></a>
+  <span class="fix_smartphone2">077-7777777</span><br>
+  <a href="tel:077-7777777" class="fix_smartphone fix_smartphone_href">077-7777777</a><br>
+
+  <a href="tel:077-7777777" class="fix_smartphone_href"> 
+    fix_smartphone
+        <strong class="fix_smartphone">077-7777777</strong>
+  </a><br>
+
+  <a href="tel:077-7777777" class="fix_smartphone_href1"> 
+    fix_smartphone1
+    <strong class="fix_smartphone1">077-7777777</strong>
+  </a><br>
+
+  <a href="tel:077-7777777" class="fix_smartphone_href2"> 
+    fix_smartphone2
+    <strong class="fix_smartphone2">077-7777777</strong>
+  </a>
+  <br>
+  <br>
+
+
+<script src="https://www.staging.fixdigital.co.il/forms/FormRendering/main.js" charset="UTF-8"></script>
+<script id="fxd-embed-script-106-290">
+  fixdigitalForms.init({
+    clientId: 106,
+    id: 290
+  });
+</script>
 </body>
