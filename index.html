@@ -3,24 +3,25 @@
   <head>
 <!-- Fixdigital Code -->
 <script>
-var fixdigital_params = {
-defaultphone:'', 
-phoneSelector:'.fix_smartphone, .fix_smartphone1 , .fix_smartphone2', 
-phoneSelectorHref:'.fix_smartphone_href, .fix_smartphone_href1 , .fix_smartphone_href2',
-api_type: 4, 
-api_clientkey: '1115', 
-api_tenantkey:'82', 
-api_projectid: '2837', 
-api_projecttypeid: '5',  
-sync:true,  
-forms:[], 
-cookie_expired:2592000
-};</script>
-<script>
-!function(e){if(e.fixdigital=e.fixdigital||{},!e.fixdigital.cookie){e.fixdigital.cookie=e.fixdigital.cookie||{};var i,r=e.fixdigital.cookie;r.cookie_query="fixdigital.queryparams",r.cookie_hash="fixdigital.hashparams",r.cookie_referer="fixdigital.referer",r.cookie_original_referer="fixdigital.origin_referer",r.cookie_expired=10,r.cookie_original_expired=e.fixdigital_params.cookie_expired,r.crossdomain=(i=function(e){var i=e.split(".");"www"!==i[0]&&"m"!==i[0]&&"mobile"!==i[0]||i.shift();return i.join(".")}(location.hostname),"."+location.hostname.substring(location.hostname.indexOf(i))),r.getCookie=function(e){var i=document.cookie.match(new RegExp("(?:^|; )"+e.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g,"\\$1")+"=([^;]*)"));return i?decodeURIComponent(i[1]):void 0},r.deleteCookie=function(e){for(var i=r.crossdomain.split(".");i&&0<i.length;){var o=i.join(".");r.setCookie(e,"",{expires:-1,domain:o,path:"/"}),i.shift()}},r.setCookie=function(e,i,o){var r=(o=o||{}).expires;if("number"==typeof r&&r){var a=new Date;a.setTime(a.getTime()+1e3*r),r=o.expires=a}r&&r.toUTCString&&(o.expires=r.toUTCString());var t=e+"="+(i=encodeURIComponent(i));for(var n in o){t+="; "+n;var c=o[n];!0!==c&&(t+="="+c)}document.cookie=t},void 0===r.getCookie(r.cookie_referer)&&(r.setCookie(r.cookie_query,location.search,{expires:r.cookie_expired,domain:r.crossdomain}),r.setCookie(r.cookie_hash,location.hash,{expires:r.cookie_expired,domain:r.crossdomain}),r.setCookie(r.cookie_referer,document.referrer,{expires:r.cookie_expired,domain:r.crossdomain}))}}(window);
-</script>
-<script id="fixdigital_script" src="https://www.fixdigital.co.il/crm/v1.2.2/fixdigital_integrate.js" async></script>
-<!-- End Fixdigital Code -->
+	var fixdigital_params = {
+	defaultphone:'', 
+	phoneSelector:'.fix_smartphone, .fix_smartphone1 , .fix_smartphone2', 
+	phoneSelectorHref:'.fix_smartphone_href, .fix_smartphone_href1 , .fix_smartphone_href2',
+	api_type: 4, 
+	api_clientkey: '1911', 
+	api_tenantkey:'1', 
+	api_projectid: '2779', 
+	api_projecttypeid: '4',  
+	sync:true,  
+	forms:[], 
+	cookie_expired:2592000
+	};</script>
+	<script>
+	!function(e){if(e.fixdigital=e.fixdigital||{},!e.fixdigital.cookie){e.fixdigital.cookie=e.fixdigital.cookie||{};var i,r=e.fixdigital.cookie;r.cookie_query="fixdigital.queryparams",r.cookie_hash="fixdigital.hashparams",r.cookie_referer="fixdigital.referer",r.cookie_original_referer="fixdigital.origin_referer",r.cookie_expired=10,r.cookie_original_expired=e.fixdigital_params.cookie_expired,r.crossdomain=(i=function(e){var i=e.split(".");"www"!==i[0]&&"m"!==i[0]&&"mobile"!==i[0]||i.shift();return i.join(".")}(location.hostname),"."+location.hostname.substring(location.hostname.indexOf(i))),r.getCookie=function(e){var i=document.cookie.match(new RegExp("(?:^|; )"+e.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g,"\\$1")+"=([^;]*)"));return i?decodeURIComponent(i[1]):void 0},r.deleteCookie=function(e){for(var i=r.crossdomain.split(".");i&&0<i.length;){var o=i.join(".");r.setCookie(e,"",{expires:-1,domain:o,path:"/"}),i.shift()}},r.setCookie=function(e,i,o){var r=(o=o||{}).expires;if("number"==typeof r&&r){var a=new Date;a.setTime(a.getTime()+1e3*r),r=o.expires=a}r&&r.toUTCString&&(o.expires=r.toUTCString());var t=e+"="+(i=encodeURIComponent(i));for(var n in o){t+="; "+n;var c=o[n];!0!==c&&(t+="="+c)}document.cookie=t},void 0===r.getCookie(r.cookie_referer)&&(r.setCookie(r.cookie_query,location.search,{expires:r.cookie_expired,domain:r.crossdomain}),r.setCookie(r.cookie_hash,location.hash,{expires:r.cookie_expired,domain:r.crossdomain}),r.setCookie(r.cookie_referer,document.referrer,{expires:r.cookie_expired,domain:r.crossdomain}))}}(window);
+	</script>
+	<script id="fixdigital_script" src="https://www.fixdigital.co.il/crm/v1.2.2/fixdigital_integrate.js" async></script>
+	<!-- End Fixdigital Code -->
+	
 
 
 	  
@@ -29,8 +30,7 @@ cookie_expired:2592000
 	
     <h2>Form API </h2>
 
-    <form action="https://www.fixdigital.co.il/api/v1.2/lead/addApi?projectID=2837&projectTypeID=5&clientID=1115&tenantID=82&FORMURL=https://github.com/chaim350/RegularExpressionsTest&name=fname&phone=phone&email=email
-    ">
+    <form action="/">
       
       <input type="text" id="fname" name="fname" placeholder="Name"><br>
       <input type="text" id="email" name="email" placeholder="Email"><br>
@@ -38,36 +38,6 @@ cookie_expired:2592000
       <input type="submit" value="Submit">
     </form> 
 	
-	  <script>
-		 let name = document.getElementById("fname") 
-		 let email = document.getElementById("email") 
-		 let phone = document.getElementById("phone") 
-	  </script>
-	  
-	
-	  
-	  
-    	<h2>Regular experession</h2>		
-      <input type="text" id="pass" placeholder="Password">
-			<button id="check">Click</button>
-			<p id="error"></p>
-    
-      <script>
-	let regularExp = /^[A-Z][0-9]/  // definde Regular experession
-	let password = document.getElementById("pass")
-	let button = document.getElementById("check")
-	let error = document.getElementById("error")
-
-	button.addEventListener("click", ()=>{
-	  let result = regularExp.test(password.value)   // test() method
-
-	  if (result === true){
-	    error.innerHTML = "Password correct!"
-	  }else{
-	    error.innerHTML = "Password NOT correct!"
-	  }
-	})
-      </script>
 
   </body>
 </html>
